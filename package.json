@@ -19,6 +19,7 @@
     },
     "dependencies": {
         "@inertiajs/vue3": "^1.0.15",
-        "@vitejs/plugin-vue": "^5.0.4"
+        "@vitejs/plugin-vue": "^5.0.4",
+        "flowbite": "^2.3.0"
     }
 }

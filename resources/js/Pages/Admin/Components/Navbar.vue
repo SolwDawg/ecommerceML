@@ -55,7 +55,8 @@
                 </a>
                 <form action="#" method="GET" class="hidden md:block md:pl-2">
                     <label for="topbar-search" class="sr-only">Search</label>
-                    <div class="relative md:w-64 md:w-96">
+                    <div class="relative md:w-96">
+                        <!-- md:w-64 -->
                         <div
                             class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"
                         >
@@ -126,9 +127,10 @@
                 </button>
                 <!-- Dropdown menu -->
                 <div
-                    class="hidden overflow-hidden z-50 my-4 max-w-sm text-base list-none bg-white rounded divide-y divide-gray-100 shadow-lg dark:divide-gray-600 dark:bg-gray-700 rounded-xl"
+                    class="hidden overflow-hidden z-50 my-4 max-w-sm text-base list-none bg-white divide-y divide-gray-100 shadow-lg dark:divide-gray-600 dark:bg-gray-700 rounded-xl"
                     id="notification-dropdown"
                 >
+                    <!-- rounded -->
                     <div
                         class="block py-2 px-4 text-base font-medium text-center text-gray-700 bg-gray-50 dark:bg-gray-600 dark:text-gray-300"
                     >

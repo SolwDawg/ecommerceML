@@ -27,7 +27,7 @@ return new class extends Migration {
             $table->foreignIdFor(Brand::class, 'brand_id')->nullable();
             $table->foreignIdFor(Category::class, 'category_id')->nullable();
             $table->softDeletes();
-            $table->foreignIdFor(User::class, 'deleted_id')->nullable();
+            $table->foreignIdFor(User::class, 'deleted_by')->nullable();
             $table->timestamps();
         });
     }
